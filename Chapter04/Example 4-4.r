@@ -1,0 +1,1 @@
+sparkR.session(appName = "MyApp", sparkConfig = list(spark.some.config.option = "some-value"))
