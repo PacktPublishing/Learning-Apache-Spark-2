@@ -7,7 +7,7 @@ Spark juggernaut keeps on rolling and getting more and more momentum each day. S
 The next part of the journey after installation is using key components, APIs, Clustering, machine learning APIs, data pipelines, parallel programming. It is important to understand why each framework component is key, how widely it is being used, its stability and pertinent use cases.
 
 
-##Instructions and Navigation
+## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
 Code bundle contains a DataSet folder for sample data used.
@@ -21,11 +21,6 @@ exten => s,1,Dial(Zap/1|30)
 exten => s,2,Voicemail(u100)
 exten => s,102,Voicemail(b100)
 exten => i,1,Voicemail(s0)
-```
-Any command-line input or output is written as follows:
-```
-# cp /usr/src/asterisk-addons/configs/cdr_mysql.conf.sample
- <b>/etc/asterisk/cdr_mysql.conf</b>
 ```
 
 You will need Spark 2.0, which you can download from Apache Spark website. We have used few different configurations, but you can essentially run most of these examples inside a virtual machine with 4-8GB of RAM, and 10 GB of available disk space.
