@@ -13,9 +13,10 @@ All of the code is organized into folders. Each folder starts with a number foll
 Code bundle contains a DataSet folder for sample data used.
 
 The code will look like the following:
-```
+
 When we wish to draw your attention to a particular part of a code block, the relevant lines
 or items are set in bold:
+```
 [default]
 exten => s,1,Dial(Zap/1|30)
 exten => s,2,Voicemail(u100)
