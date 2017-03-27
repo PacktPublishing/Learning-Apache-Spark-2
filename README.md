@@ -1,4 +1,5 @@
 #Learning Apache Spark 2
+
 This is the code repository for [Learning Apache Spark 2](https://www.packtpub.com/big-data-and-business-intelligence/learning-apache-spark-2?utm_source=github&utm_medium=repository&utm_campaign=9781785885136), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 Spark juggernaut keeps on rolling and getting more and more momentum each day. Spark provides key capabilities in the form of Spark SQL, Spark Streaming, Spark ML and Graph X all accessible via Java, Scala, Python and R. Deploying the key capabilities is crucial whether it is on a Standalone framework or as a part of existing Hadoop installation and configuring with Yarn and Mesos.
@@ -20,9 +21,11 @@ exten => s,1,Dial(Zap/1|30)
 exten => s,2,Voicemail(u100)
 exten => s,102,Voicemail(b100)
 exten => i,1,Voicemail(s0)
+```
 Any command-line input or output is written as follows:
+```
 # cp /usr/src/asterisk-addons/configs/cdr_mysql.conf.sample
- /etc/asterisk/cdr_mysql.conf
+ <b>/etc/asterisk/cdr_mysql.conf</b>
 ```
 
 You will need Spark 2.0, which you can download from Apache Spark website. We have used few different configurations, but you can essentially run most of these examples inside a virtual machine with 4-8GB of RAM, and 10 GB of available disk space.
@@ -35,4 +38,5 @@ You will need Spark 2.0, which you can download from Apache Spark website. We ha
 * [Apache Spark Machine Learning Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/apache-spark-machine-learning-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781783551606)
 
 ###Suggestions and Feedback
+
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
